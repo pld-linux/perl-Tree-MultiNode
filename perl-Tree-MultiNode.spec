@@ -3,7 +3,7 @@ Summary:	Tree-MultiNode perl module
 Summary(pl):	Modu³ perla Tree-MultiNode
 Name:		perl-Tree-MultiNode
 Version:	1.0.6
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
