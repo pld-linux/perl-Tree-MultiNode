@@ -10,7 +10,7 @@ Summary(pl):	Modu³ Perla Tree::MultiNode - obiekt drzewa wielowêz³owego
 Name:		perl-Tree-MultiNode
 Version:	1.0.10
 Release:	1
-License:	GPL
+License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5616a11ec829742fc53d34e46782ae5a
