@@ -1,11 +1,15 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tree
 %define	pnam	MultiNode
 Summary:	Tree::MultiNode Perl module - a multi node tree object
 Summary(pl):	Modu³ Perla Tree::MultiNode - obiekt drzewa wielowêz³owego
 Name:		perl-Tree-MultiNode
-Version:	1.0.8
-Release:	3
+Version:	1.0.9
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -39,6 +43,7 @@ potomnych.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
