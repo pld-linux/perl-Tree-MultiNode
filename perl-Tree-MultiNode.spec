@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tree
-%define	pnam	MultiNode
+%define		pdir	Tree
+%define		pnam	MultiNode
 Summary:	Tree::MultiNode Perl module - a multi node tree object
 Summary(pl):	Modu³ Perla Tree::MultiNode - obiekt drzewa wielowêz³owego
 Name:		perl-Tree-MultiNode
