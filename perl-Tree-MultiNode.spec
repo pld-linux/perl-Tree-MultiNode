@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tree
 %define	pnam	MultiNode
-Summary:	Tree::MultiNode perl module
-Summary(pl):	Modu³ perla Tree::MultiNode
+Summary:	MultiNode.pm -- a multi node tree object.
 Name:		perl-Tree-MultiNode
 Version:	1.0.8
 Release:	1
@@ -15,10 +14,13 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tree::MultiNode perl module.
-
-%description -l pl
-Modu³ perla Tree::MultiNode.
+Tree::MultiNode, Tree::MultiNode::Node, and MultiNode::Handle are objects
+modeled after C++ classes that I had written to help me model heirarchical
+information as datastructures (such as the relationships between records
+in an RDBMS).  The tree is basicly a list of lists type data structure,
+where each node has a key, a value, and a list of children.  The tree
+has no internal sorting, though all operations perserve the order of
+the child nodes.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
