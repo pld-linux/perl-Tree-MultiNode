@@ -2,9 +2,9 @@
 Summary:	Tree-MultiNode perl module
 Summary(pl):	Modu³ perla Tree-MultiNode
 Name:		perl-Tree-MultiNode
-Version:	0.9.4
-Release:	3
-Copyright:	GPL
+Version:	1.0.2
+Release:	1
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Tree/Tree-MultiNode-%{version}.tar.gz
@@ -45,7 +45,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc {Changes,README}.gz old.test.pl
+%doc {Changes,README}.gz test.pl
 
 %{perl_sitelib}/Tree/MultiNode.pm
 %{perl_sitearch}/auto/Tree/MultiNode
