@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Tree
 %define	pnam	MultiNode
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tree-MultiNode perl module
 Summary(pl):	Modu³ perla Tree-MultiNode
 Name:		perl-Tree-MultiNode
 Version:	1.0.7
-Release:	3
-
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Tree-MultiNode perl module.
 Modu³ perla Tree-MultiNode.
 
 %prep
-%setup -q -n Tree-MultiNode-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
