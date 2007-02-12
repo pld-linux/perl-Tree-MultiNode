@@ -6,7 +6,7 @@
 %define		pdir	Tree
 %define		pnam	MultiNode
 Summary:	Tree::MultiNode Perl module - a multi node tree object
-Summary(pl):	Modu³ Perla Tree::MultiNode - obiekt drzewa wielowêz³owego
+Summary(pl.UTF-8):   ModuÅ‚ Perla Tree::MultiNode - obiekt drzewa wielowÄ™zÅ‚owego
 Name:		perl-Tree-MultiNode
 Version:	1.0.10
 Release:	1
@@ -28,14 +28,14 @@ list of lists type data structure, where each node has a key, a value,
 and a list of children. The tree has no internal sorting, though all
 operations perserve the order of the child nodes.
 
-%description -l pl
+%description -l pl.UTF-8
 Tree::MultiNode, Tree::MultiNode::Node i Tree::MultiNode::Handle to
-obiekty stworzone na podstawie klas C++ napisanych dla u³atwienia
+obiekty stworzone na podstawie klas C++ napisanych dla uÅ‚atwienia
 opracowania modelu hierarchicznej informacji jako struktur danych
-(takich jak relacje pomiêdzy rekordami w relacyjnej bazie danych).
-Drzewo jest zasadniczo struktur± danych typu lista list, gdzie ka¿dy
-wêze³ ma klucz, warto¶æ i listê potomków. Drzewo nie ma wewnêtrznego
-sortowania, ale wszystkie operacje zachowuj± kolejno¶æ wêz³ów
+(takich jak relacje pomiÄ™dzy rekordami w relacyjnej bazie danych).
+Drzewo jest zasadniczo strukturÄ… danych typu lista list, gdzie kaÅ¼dy
+wÄ™zeÅ‚ ma klucz, wartoÅ›Ä‡ i listÄ™ potomkÃ³w. Drzewo nie ma wewnÄ™trznego
+sortowania, ale wszystkie operacje zachowujÄ… kolejnoÅ›Ä‡ wÄ™zÅ‚Ã³w
 potomnych.
 
 %prep
