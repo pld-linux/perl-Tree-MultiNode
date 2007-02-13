@@ -6,7 +6,7 @@
 %define		pdir	Tree
 %define		pnam	MultiNode
 Summary:	Tree::MultiNode Perl module - a multi node tree object
-Summary(pl.UTF-8):   Moduł Perla Tree::MultiNode - obiekt drzewa wielowęzłowego
+Summary(pl.UTF-8):	Moduł Perla Tree::MultiNode - obiekt drzewa wielowęzłowego
 Name:		perl-Tree-MultiNode
 Version:	1.0.10
 Release:	1
