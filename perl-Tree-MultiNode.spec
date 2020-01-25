@@ -4,7 +4,6 @@
 
 %define		pdir	Tree
 %define		pnam	MultiNode
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tree::MultiNode Perl module - a multi node tree object
 Summary(pl.UTF-8):	Moduł Perla Tree::MultiNode - obiekt drzewa wielowęzłowego
 Name:		perl-Tree-MultiNode
