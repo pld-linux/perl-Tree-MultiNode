@@ -7,13 +7,13 @@
 Summary:	Tree::MultiNode Perl module - a multi node tree object
 Summary(pl.UTF-8):	Moduł Perla Tree::MultiNode - obiekt drzewa wielowęzłowego
 Name:		perl-Tree-MultiNode
-Version:	1.0.10
-Release:	2
+Version:	1.0.14
+Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	5616a11ec829742fc53d34e46782ae5a
-URL:		http://search.cpan.org/dist/Tree-MultiNode/
+Source0:	https://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	146bb1f5f6ddec38ccb7d012c52574bf
+URL:		https://search.cpan.org/dist/Tree-MultiNode/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -59,6 +59,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README test.pl
+%doc Changes README
 %{perl_vendorlib}/Tree/MultiNode.pm
 %{_mandir}/man3/*
